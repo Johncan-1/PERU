@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>USER|REGISTRATION</title>
+    <style>
+      body {
+        font-family:sans-serif;
+        background-image: url("https://static.vecteezy.com/system/resources/previews/000/664/710/original/vector-abstract-technology-background-hi-tech-communication-digital-background.jpg");
+      }
+      form {
+        background-color: 000000;
+        max-width: 400px;
+        margin: 0 auto;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+        margin-top: 100px;
+      }
+  
+      h1 {
+        text-align: center;
+        color: #fff;
+        margin-bottom: 30px;
+      }
+        h4 {
+        text-align: center;
+        color: #fff;
+        margin-bottom: 40px;
+      }
+      label {
+        display: block;
+        font-weight: bold;
+        margin-bottom: 5px;
+        color: #fff;
+      }
+      input[type="text"],
+      input[type="password"] {
+        width: 100%;
+        padding: 10px;
+        border-radius: 5px;
+        border: none;
+        margin-bottom: 20px;
+        box-sizing: border-box;
+        border: 1px solid #ccc;
+      }
+       
+      input[type="submit"] {
+        background-color: #000000;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px; 
+        cursor: pointer;
+        font-size: 16px;
+        margin-top: 20px;
+        text-align: center;
+      }
+      input[type="submit"]:hover {
+        background-color:  #00FF00;
+        text-align: center;
+      }
+    
+      input[type="button"]:hover {
+         background-color: #00FF00;
+       }
+       img{
+        width: 120%;
+        background-repeat: no-repeat;
+       }
+    </style>
+  </head>
+  <body>
+    <form>
+      <h1>USER|REGISTRATION</h1>
+      <h4>YOU MUST REGISTER FIRST</h4>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" placeholder="Enter your name">
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username" placeholder="Enter your username">
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" placeholder="Enter your password">
+      <label for="nationality">Nationality:</label>
+      <input type="text" id="nationality" name="age" placeholder="Enter your Nationality">
+       <label for="gender">Gender:</label>
+      <input type="text" id="gender" name="gender" placeholder="Enter your Gender">
+       <label for="address">Address:</label>
+      <input type="text" id="address" name="address" placeholder="Enter your Address">
+      <label for="status">Status:</label>
+      <input type="text" id="status" name="status" placeholder="Enter your Status">
+      <label for="age">Age:</label>
+      <input type="text" id="age" name="address" placeholder="Enter your Age">
+
+
+
+
+      <input type="submit" value="Register"><br>
+ <br>
+      <a href="#" class="button">Already have an account/Click here to login!</a>
+  
+    
+    </form>
+  </body>
+</html>
